@@ -1,11 +1,12 @@
 # terraform-repo
 
 ```
+terraform init
 terraform plan
 terraform appy
 ```
 
-## create terraform.tfvars file to store AWS credential and put it in .gitignore
+### create terraform.tfvars file to store AWS credential and put it in .gitignore
 
 ```
 $ cat terraform.tfvars
@@ -13,9 +14,9 @@ $ cat terraform.tfvars
  AWS_SECRET_KEY ="your secret key"$ ssh-keygen -f mykey
 ```
 
-# Create your public private key pair and put them in .gitignore
+### Create your public private key pair and put them in .gitignore
 ```
- $ ssh-keygen -f mykey
+$ ssh-keygen -f mykey
 ```
 ```
 cat .gitignore
